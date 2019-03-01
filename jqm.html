@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+
+<html lang="de">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Zwei Unterseiten mit JQuery Mobile</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="lib/css/jquery.mobile-1.1.0.min.css" />
+    <link rel="stylesheet" href="lib/css/jqm1.css" type="text/css" />
+    <script type="text/javascript" src="lib/js/jquery-1.7.2.min.js"></script>
+    <script src="lib/js/jquery.mobile-1.1.0.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="lib/js/jqm_ready1.js"></script>
+</head>
+
+<body>
+    <div data-role="page" id="s1">
+        <div data-role="header">
+            <h1>Der Titel</h1>
+        </div>
+        <a href="#s2" data-transition="flip" data-rel="dialog" data-role="button">Dialog aufrufen</a>
+        <div data-role="content">
+            <p>
+                Der belibige normale inhalt, der jetzt immer weiter geht, der jetzt immer weiter geht, der jetzt immer weiter geht, der jetzt immer weiter geht, der jetzt immer weiter geht.
+                <p>
+                    Der belibige normale inhalt, der jetzt immer weiter geht
+                </p>
+            </p>
+        </div>
+        <ul data-role="listview">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="https://knknrnkn.github.io/portfolio/">Portfolio</a></li>
+            <li><a href="https://github.com/knknrnkn">Github</a></li>
+        </ul>
+        <div data-role="footer">
+            <h4>Fußzeile</h4>
+        </div>
+    </div>
+    <div data-role="page" id="s2" data-theme="e">
+        <div data-role="header">
+            <h1>Mein Dialog</h1>
+        </div>
+        <div data-role="content">
+
+            <p>
+                Textinhalt des Dialogs
+            </p>
+        </div>
+        <div data-role="footer">
+            <h4>Fußzeile</h4>
+        </div>
+
+    </div>
+</body>
+
+</html>
